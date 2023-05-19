@@ -1,0 +1,125 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ExampleValidator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Validator",
+        "printedName": "Validator",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Validator",
+                "printedName": "ExampleValidator.Validator",
+                "usr": "s:16ExampleValidator0B0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16ExampleValidator0B0CACycfc",
+            "mangledName": "$s16ExampleValidator0B0CACycfc",
+            "moduleName": "ExampleValidator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isValidEmail",
+            "printedName": "isValidEmail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ExampleValidator0B0C12isValidEmailySbSSF",
+            "mangledName": "$s16ExampleValidator0B0C12isValidEmailySbSSF",
+            "moduleName": "ExampleValidator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sayHello",
+            "printedName": "sayHello()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ExampleValidator0B0C8sayHelloyyF",
+            "mangledName": "$s16ExampleValidator0B0C8sayHelloyyF",
+            "moduleName": "ExampleValidator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16ExampleValidator0B0C",
+        "mangledName": "$s16ExampleValidator0B0C",
+        "moduleName": "ExampleValidator",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/julien\/Desktop\/Cocopods try\/ExampleValidator\/ExampleValidator\/ExampleValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 49,
+      "value": "\"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\""
+    },
+    {
+      "filePath": "\/Users\/julien\/Desktop\/Cocopods try\/ExampleValidator\/ExampleValidator\/ExampleValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 411,
+      "length": 17,
+      "value": "\"SELF MATCHES %@\""
+    },
+    {
+      "filePath": "\/Users\/julien\/Desktop\/Cocopods try\/ExampleValidator\/ExampleValidator\/ExampleValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 547,
+      "length": 33,
+      "value": "\"Hello Boy. HOw are you doing???\""
+    }
+  ]
+}

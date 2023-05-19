@@ -1,0 +1,11 @@
+framework module ExampleValidator {
+  umbrella header "ExampleValidator.h"
+
+  export *
+  module * { export * }
+}
+
+module ExampleValidator.Swift {
+  header "ExampleValidator-Swift.h"
+  requires objc
+}
