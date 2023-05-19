@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		F94D365A2A178AA90034AB96 /* ExampleValidator.docc in Sources */ = {isa = PBXBuildFile; fileRef = F94D36592A178AA90034AB96 /* ExampleValidator.docc */; };
 		F94D365B2A178AA90034AB96 /* ExampleValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = F94D36582A178AA90034AB96 /* ExampleValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F94D36622A178AB80034AB96 /* ExampleValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D36612A178AB80034AB96 /* ExampleValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F94D36552A178AA90034AB96 /* ExampleValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94D36582A178AA90034AB96 /* ExampleValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleValidator.h; sourceTree = "<group>"; };
 		F94D36592A178AA90034AB96 /* ExampleValidator.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ExampleValidator.docc; sourceTree = "<group>"; };
+		F94D36612A178AB80034AB96 /* ExampleValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		F94D36572A178AA90034AB96 /* ExampleValidator */ = {
 			isa = PBXGroup;
 			children = (
+				F94D36612A178AB80034AB96 /* ExampleValidator.swift */,
 				F94D36582A178AA90034AB96 /* ExampleValidator.h */,
 				F94D36592A178AA90034AB96 /* ExampleValidator.docc */,
 			);
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F94D365A2A178AA90034AB96 /* ExampleValidator.docc in Sources */,
+				F94D36622A178AB80034AB96 /* ExampleValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
