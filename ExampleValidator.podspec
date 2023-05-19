@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ExampleValidator"
-  spec.version      = "1.0.0"
+  spec.version      = "2.0.1"
   spec.summary      = "This is the framework for email validation"
 
 

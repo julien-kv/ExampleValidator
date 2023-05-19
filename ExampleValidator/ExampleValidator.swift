@@ -21,5 +21,8 @@ public class Validator{
     public func sayHello(){
         print("Hello Boy. HOw are you doing???")
     }
+    public func sayBye(){
+        print("Hello Boy. Byee")
+    }
     
 }
