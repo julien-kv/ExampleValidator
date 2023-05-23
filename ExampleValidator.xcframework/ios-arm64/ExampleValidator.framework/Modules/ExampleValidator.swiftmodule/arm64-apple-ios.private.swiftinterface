@@ -11,5 +11,8 @@ public class Validator {
   public init()
   public func isValidEmail(_ email: Swift.String) -> Swift.Bool
   public func sayHello()
+  public func sayBye()
+  public func getBundleId()
+  public func myFunction()
   @objc deinit
 }

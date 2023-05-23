@@ -17,6 +17,7 @@
 		F94D36582A178AA90034AB96 /* ExampleValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleValidator.h; sourceTree = "<group>"; };
 		F94D36592A178AA90034AB96 /* ExampleValidator.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ExampleValidator.docc; sourceTree = "<group>"; };
 		F94D36612A178AB80034AB96 /* ExampleValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleValidator.swift; sourceTree = "<group>"; };
+		F965CDC82A1C9DA3006419B3 /* ExampleValidator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleValidator-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				F94D36612A178AB80034AB96 /* ExampleValidator.swift */,
+				F965CDC82A1C9DA3006419B3 /* ExampleValidator-Bridging-Header.h */,
 				F94D36582A178AA90034AB96 /* ExampleValidator.h */,
 				F94D36592A178AA90034AB96 /* ExampleValidator.docc */,
 			);
@@ -267,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -300,6 +303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

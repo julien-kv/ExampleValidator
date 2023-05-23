@@ -24,5 +24,20 @@ public class Validator{
     public func sayBye(){
         print("Hello Boy. Byee")
     }
+    public func getBundleId(){
+        if let bundleIdentifier = Bundle.main.bundleIdentifier {
+            print("Bundle ID: \(bundleIdentifier)")
+        }
+    }
+    
+    public func myFunction() {
+        let callStackSymbols = Thread.callStackSymbols
+        if callStackSymbols.count >= 2 {
+            let callerSymbol = callStackSymbols[1]
+            let className = callerSymbol.components(separatedBy: " ")[1]
+            print("Calling class name: \(className)")
+        }
+    }
+    
     
 }

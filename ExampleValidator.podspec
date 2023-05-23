@@ -37,6 +37,8 @@ Pod::Spec.new do |spec|
   
   spec.platform     = :ios, "14.0"
 
+  spec.swift_version = '5.0'
+
   spec.source       = { :git => "https://github.com/julien-kv/ExampleValidator.git", :tag => spec.version }
   
   spec.source_files  = "ExampleValidator/**/*.{swift}"
