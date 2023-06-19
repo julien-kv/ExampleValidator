@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/71290498/231855731-2d3774c3-dc41-4595-abfb-9c49f5f84103.png" alt="Mixpanel Swift Library" height="150"/>
+  <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1441713939/o8bplvbhmr2jzkhynltt.png" alt="MSD Swift Library" height="150"/>
 </p>
 
 
