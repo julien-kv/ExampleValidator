@@ -16,22 +16,17 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ExampleValidator"
-  spec.version      = "2.0.2"
+  spec.version      = "2.1.0"
   spec.summary      = "This is the framework for email validation"
 
-
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  This framework is famous framework
+  This framework is famous framework. THis is called example validator. used to check whther the email passed is right or wrong. Also can fetch the bundle id of the device.
                    DESC
 
   spec.homepage     = "https://github.com/julien-kv/ExampleValidator"
 
-  spec.license      = "MIT"
+  spec.license = { :type => 'MIT', :file => 'LICENSE' }
+
 
   spec.author             = { "julienKeyvalue" => "julien@keyvalue.systems" }
   

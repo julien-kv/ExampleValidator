@@ -17,6 +17,9 @@ public class Validator{
         let emailPredicate = NSPredicate(format: "SELF MATCHES %@", emailRegex)
         return emailPredicate.evaluate(with: email)
     }
+    public func sayHelloOn23(){
+        print("hello boss")
+    }
     
     public func sayHello(){
         print("Hello Boy. HOw are you doing???")
