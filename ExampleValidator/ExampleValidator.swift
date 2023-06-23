@@ -32,6 +32,10 @@ public class Validator{
             print("Bundle ID: \(bundleIdentifier)")
         }
     }
+
+    public func getFirstRank(){
+        print("you got first rank")
+    }
     
     public func myFunction() {
         let callStackSymbols = Thread.callStackSymbols
